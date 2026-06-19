@@ -31,7 +31,7 @@ An AI-powered football prediction system that uses XGBoost, Elo ratings, and Mon
 - XGBoost (Machine Learning)  
 - Streamlit (Web App)  
 - Plotly (Visualization)  
-
+- Docker (Deployment)
 ---
 
 ## 📊 Example Results
@@ -49,6 +49,13 @@ pip install -r requirements.txt
 streamlit run app/streamlit_app.py
 
 ```
+## 🚀 Quick Start (Docker)
+
+```bash
+docker build -t worldcup .
+docker run -p 8501:8501 worldcup
+```
+
 # 📁 Project structure
 ```md
 worldcup/
