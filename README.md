@@ -60,16 +60,16 @@ docker run -p 8501:8501 worldcup
 ```md
 worldcup/
 │── app/
-│   └── streamlit_app.py      # Interfața grafică (Dashboard-ul Streamlit)
+│   └── streamlit_app.py      # Streamlit web interface (dashboard UI)
 │── src/
 │   ├── __init__.py
-│   ├── predict.py            # Pipeline-ul de inferență al modelului ML
-│   └── simulation.py         # Motorul de simulare Monte Carlo & Bracket Logic
+│   ├── predict.py            # ML inference pipeline
+│   └── simulation.py         # Monte Carlo simulation engine & bracket logic
 │── data/
 │   └── raw/
-│       └── teams_2026.csv    # Configurația celor 48 de echipe și grupele oficiale
+│       └── teams_2026.csv    # Configuration of the 48 teams and official groups
 │── models/
-│   └── xgboost_model.json    # Modelul salvat și serializat
+│   └── xgboost_model.json    # Trained and serialized model
 │── README.md
 ```
 ## 💡 What makes this project special
